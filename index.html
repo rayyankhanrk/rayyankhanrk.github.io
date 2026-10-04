@@ -1,1 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayyan Khan | CSE Student Portfolio</title>
 
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #1f2937;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f2a5f;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            background: white;
+            padding: 80px 8%;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            color: #0f2a5f;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 60px 8%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        section h2 {
+            color: #0f2a5f;
+            margin-bottom: 25px;
+            font-size: 30px;
+        }
+
+        .project {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .project h3 {
+            color: #0f2a5f;
+            margin-bottom: 10px;
+        }
+
+        .project a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #0f2a5f;
+            color: white;
+            padding: 8px 14px;
+            border-radius: 20px;
+        }
+
+        .contact {
+            background: white;
+            text-align: center;
+        }
+
+        .contact a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #0f2a5f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            .hero h2 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Rayyan Khan</h1>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>B.Tech CSE Student</h2>
+    <p>
+        Computer Science and Engineering student at REVA University,
+        interested in software development and practical programming.
+    </p>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+
+    <p>
+        I am Rayyan Khan, a 3rd-semester B.Tech Computer Science and
+        Engineering student at REVA University, Bengaluru.
+        I am interested in software development and practical programming.
+        I am currently learning C, Java, Git, GitHub, problem solving,
+        and basic software-development practices.
+    </p>
+
+    <br>
+
+    <p>
+        My goal is to strengthen my programming and problem-solving skills
+        during my B.Tech degree, build practical projects, and prepare for
+        software-development internships and entry-level opportunities.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Activity 1 — Development Environment Setup</h3>
+
+        <p>
+            Set up a C development environment using VS Code and Linux,
+            created and ran a Hello World C program, and used Git and
+            GitHub to document the project.
+        </p>
+
+        <br>
+
+        <a href="https://github.com/rayyankhanrk/Activity1-Dev-Environment-Setup"
+           target="_blank">
+            View on GitHub
+        </a>
+    </div>
+
+    <div class="project">
+        <h3>Activity 2 — Git & GitHub Setup</h3>
+
+        <p>
+            Practiced initializing a Git repository, making commits,
+            connecting a local repository to GitHub, and pushing changes.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Activity 3 — GitLens & VS Code Live Share</h3>
+
+        <p>
+            Practiced viewing Git history and commits using GitLens
+            and collaborating using VS Code Live Share.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Activity 4 — LeetCode Solutions</h3>
+
+        <p>
+            Created a GitHub repository for documenting LeetCode solutions
+            and progress. Solutions cover arrays and strings, basic
+            algorithms, linked lists, and stacks, including Two Sum,
+            Palindrome Number, Valid Anagram, Valid Parentheses,
+            Binary Search, Reverse Linked List, Merge Two Sorted Lists,
+            and Baseball Game.
+        </p>
+
+        <br>
+
+        <a href="https://github.com/rayyankhanrk/leetcode-solutions"
+           target="_blank">
+            View on GitHub
+        </a>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <span class="skill">C</span>
+        <span class="skill">Java</span>
+        <span class="skill">Git</span>
+        <span class="skill">GitHub</span>
+        <span class="skill">VS Code</span>
+        <span class="skill">GitLens</span>
+        <span class="skill">GitHub Live Share</span>
+        <span class="skill">Problem Solving</span>
+        <span class="skill">Basic Data Structures and Algorithms</span>
+        <span class="skill">LeetCode</span>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+
+    <p>Rayyan Khan</p>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/rayyankhanrk" target="_blank">
+            github.com/rayyankhanrk
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Rayyan Khan | Student Portfolio</p>
+</footer>
+
+</body>
+</html>
